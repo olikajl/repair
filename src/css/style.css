@@ -132,18 +132,21 @@ img {
 /* Стили для главного экрана */
 .hero {
   padding: 50px 0;
+  background-color: #f5f5f5;
 }
 
 .hero-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .hero-text {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  padding-right: 140px;
 }
 
 .hero-text__title {
@@ -159,6 +162,8 @@ img {
   display: inline-block;
   font-size: 20px;
   margin-bottom: 70px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
 }
 
 .hero-list {
@@ -186,8 +191,8 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-width: 40px;
-  min-height: 40px;
+  min-width: 36px;
+  min-height: 36px;
   border: 2px solid #ffd200;
   border-radius: 50%;
   margin-right: 30px;
@@ -195,6 +200,14 @@ img {
 
 .hero-list__text {
   max-width: 300px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #333333;
+}
+
+.hero-image__img1 {
+  width: 570px;
+  height: 488px;
 }
 
 @media (max-width: 1200px) {
