@@ -30,6 +30,20 @@
   &__button
     width: 100%
     min-height: 70px
+    margin-bottom: 30px
+  &-wrap
+    display: flex
+    font-size: 15px
+    line-height: 1.6
+    justify-content: space-around
+  &__text-first
+    flex-basis: 50%
+    padding-right: 50px
+  &__text-second
+    flex-basis: 50%
+    padding-left: 50px
+  &_bold
+    +bold
 @media (max-width: 1200px)
   .offer 
     background-size: cover
